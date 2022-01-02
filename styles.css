@@ -8,11 +8,6 @@ h1 {
   text-align: center;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
-}
-
 h2 {
   margin-left: 2rem;
 }
@@ -32,4 +27,16 @@ button {
 .Borrar {
   box-shadow: 0 0 10px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
   background-color: #0ff;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
 }
