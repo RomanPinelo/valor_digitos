@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  margin-left: 2rem;
+}
+
+button {
+  cursor: pointer;
+  color: black;
+  border: 0;
+}
+
+.Mostrar {
+  
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  background-color: #2196f3;
+}
+
+.Borrar {
+  box-shadow: 0 0 10px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+  background-color: #0ff;
+}
